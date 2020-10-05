@@ -1,0 +1,75 @@
+html {
+  background-color: #fa8072;
+}
+
+body {
+  margin: 50px;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 46px;
+  color: #dc143c;
+  text-align: center;
+  text-shadow: 4px 4px #f08080;
+  padding: 20px;
+}
+
+p {
+  background-color: #8b0000;
+  font-size: 23px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
+  padding: 20px;
+}
+
+img {
+  background-color: #8b0000;
+  padding: 15px;
+}
+
+a:link {
+  color: #ffa07a;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffa07a;
+}
+
+a:hover {
+  color: #cd5c5c;
+}
+
+
+div {
+  text-align: center;
+}
+
+input {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #f08080;
+  background-color: #dc143c;
+  border: none;
+  padding: 20px;
+  margin: 0px auto;
+  cursor: pointer;
+  display:block;
+}
+
+input:hover {
+  background-color: #cd5c5c;
+}
+
+
+#memex {
+  width: 300px;
+  height: 200px;
+  float: right;
+}
+
+
+#netneutrality {
+  width: 220px;
+  height: 130px;
+  float: right;
