@@ -1,0 +1,138 @@
+body.home{
+    background-color: lightblue;
+    background-image: url(bluebackground.jpg);
+    background-size: min(cover, 500%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+body.p{
+    background-color: lightcyan;
+    background-image: url(cherryoreo.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+body.e{
+    background-color: lightcyan;
+    background-image: url(sushi.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+body.t{
+    background-color: lightcyan;
+    background-image: url(volleyball.gif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.a{
+    background-color: lightcyan;
+    background-image: url(bluebackground.jpg);
+    align-content: center;
+}
+
+head{
+    font-family: 'Monoton', cursive;
+    text-align: center;
+
+    }
+h1{
+    font-family: 'Bungee', cursive;
+    color: paleturquoise;
+    font-size: max(6vw, 50px);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+
+    }
+h2{
+    font-family: 'Monoton', cursive;
+    color: lightseagreen;
+    font-size: min(10vw, 100px);
+    text-align: center;
+    margin-bottom: 5px;
+    }
+
+}
+h3{
+    font-family: 'Monoton', cursive;
+    color: teal;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    padding: 20px;
+    }
+
+}
+.indexGridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+    grid-template-areas:
+    "p e t a"
+    ;
+
+    grid-column-gap: 0vw;
+    grid-row-gap: 0vh;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+}
+.p {
+    grid-area: p;
+}
+.e { 
+    grid-area: e; 
+}
+.t { 
+    grid-area: t; 
+}
+.a {
+    grid-area: a;
+}
+
+.center{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    }
+
+img{
+    display: block;
+    margin: auto;
+    align-content: center;
+   
+    }
+.homeButton{
+    padding: 15px;
+    margin-top: 20%
+    
+}
+
+a:link{
+    color: lightseagreen;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:visited{
+    color: powderblue;
+    text-decoration: none;
+    }
+
+a:hover{
+    color: powderblue;
+    text-decoration: none;
+    }
+
+a:active{
+    color: mediumturquoise;
+    text-decoration: none;
+    font-weight: bold;
+    }
