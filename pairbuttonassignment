@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>LIGHTSWITCH</title>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+    <script src="buttons.js" defer></script>
+</head>
+
+<body>
+    <h1 id="s1">It's dark in here, lets turn on the lights!</h1>
+    <h2 id="s2">As Drake woud say <br> Look, I just flipped the switch (flipped, flipped)</h2>
+    <img id="switch" src="OFF.png">
+    <br>
+    <br>
+    <div class="pos">
+        <button onclick="lightSwitch_on(1)">ON</button>
+        <button onclick="lightSwitch_off(0)">OFF</button>
+    </div>
+</body>
+
+</html>
+
+
+
+function lightSwitch_on()
+{
+    document.getElementById('switch').src='ON.png'
+    document.body.style.backgroundColor = "yellow";
+    document.getElementById("s2").innerHTML= "As Drake woud say <br> Look, I just flipped the switch (flipped, flipped)"
+}
+
+function lightSwitch_off()
+{
+    document.getElementById('switch').src='OFF.png'
+    document.body.style.backgroundColor = "black";
+    document.getElementById("s1").innerHTML= "It's dark in here, lets turn on the lights!"
+}
+
+
+
+body{
+    background-color: black;
+    font-family: 'Turret Road', cursive;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 250px;
+}
+
+button{
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 9px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.pos{
+    text-align: center;
+}
