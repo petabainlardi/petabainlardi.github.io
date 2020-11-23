@@ -1,0 +1,57 @@
+font-family: 'Patrick Hand SC', cursive;
+body{
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+     background: #C0C0C0;
+            }
+
+.bubble{
+    width:60px;
+    height: 60px;
+    font: 30px;
+    color: #37838E;
+    background-color: #FA8072;
+    text-align: center;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    vertical-align: middle;
+    padding: 15px;
+            }
+
+#score{
+    font-size:50px;
+    top: 30px;
+    left: 50px;
+    display: none;
+    text-align: left;
+    padding: 20px 20px;
+            }
+
+#start{
+    width: 100px;
+    padding: 20px 30px;
+    text-align: center;
+    font:bold 50px;
+    background-color: #F08080;
+    color: #6495ED;
+    background: #B0E0E6;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    position: absolute;
+          
+            }
+
+#start:hover{
+    cursor: pointer;
+    background-color: #FA8072;
+            }
+
+#start:active{
+    background-color: #FA8072;
+    box-shadow: 0 5px 	#00CED1;
+ 	transform: translateY(4px);
+
+            }
+p{color: #4682B4;
+  text-align: center; }
